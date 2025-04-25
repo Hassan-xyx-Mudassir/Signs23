@@ -1,0 +1,11 @@
+# TP53:
+makeblastdb -in tp53_reference.fasta -dbtype nucl -out tp53_db
+
+blastn -query ../samples/patient_tp53.fasta -db tp53_db -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qseq sseq' -out ../results/blast_output_tp53.tsv
+
+
+# PTEN:
+makeblastdb -in pten_reference.fasta -dbtype nucl -out pten_db
+
+blastn -query ../samples/patient_pten.fasta -db pten_db -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qseq sseq' -out ../results/blast_output_pten.tsv
+

@@ -1,0 +1,4 @@
+# Skip heavy files
+variant_summary.txt
+chr10_full.fasta
+chr17_full.fasta
