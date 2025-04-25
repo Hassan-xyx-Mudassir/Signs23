@@ -1,0 +1,1 @@
+py predict_diseases.py --gene PTEN --genomic-offset 87863224 --patient-fasta ../data/samples/patient_pten.fasta --reference-fasta ../data/references/pten_reference.fasta --output-dir ../data/results
