@@ -1,0 +1,273 @@
+position,ref_base,alt_base,clinical_significance,disease
+87863533,G,A,Conflicting classifications of pathogenicity,not provided|Hereditary cancer-predisposing syndrome|PTEN-related disorder
+87863549,G,A,Conflicting classifications of pathogenicity,not provided|PTEN hamartoma tumor syndrome|not specified|Hereditary cancer-predisposing syndrome
+87863601,G,C,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|not provided|7 conditions|not specified|Hereditary cancer
+87863655,T,C,Conflicting classifications of pathogenicity,not provided|Hereditary cancer-predisposing syndrome
+87863673,G,A,Conflicting classifications of pathogenicity,not specified|Hereditary cancer-predisposing syndrome
+87863756,G,A,Conflicting classifications of pathogenicity,not provided|Hereditary cancer-predisposing syndrome
+87863769,G,A,Conflicting classifications of pathogenicity,not specified|PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome
+87863804,G,A,Conflicting classifications of pathogenicity,7 conditions|not provided
+87864009,G,A,Conflicting classifications of pathogenicity,not provided|not specified|Hereditary cancer-predisposing syndrome|PTEN-related disorder
+87864224,C,T,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided
+87864254,C,T,Conflicting classifications of pathogenicity,not specified|not provided
+87864305,C,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not specified|Hereditary cancer-predisposing syndrome|not provided
+87864334,G,C,Pathogenic,Hamartomatous polyposis
+87864456,A,C,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87864470,A,C,Pathogenic,not provided
+87864471,T,C,Pathogenic,Cowden syndrome 1
+87864472,G,A,Pathogenic,PTEN hamartoma tumor syndrome
+87864483,T,C,Likely pathogenic,Macrocephaly-autism syndrome
+87864485,A,G,Pathogenic,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|Familial meningioma|not provided
+87864488,G,T,Pathogenic,not provided|Cowden syndrome 1
+87864500,A,T,Pathogenic,Cowden syndrome 1
+87864504,A,T,Likely pathogenic,PTEN hamartoma tumor syndrome
+87864506,A,T,Pathogenic,PTEN hamartoma tumor syndrome|Macrocephaly-autism syndrome
+87864521,G,T,Pathogenic,PTEN hamartoma tumor syndrome
+87864525,A,T,Pathogenic,PTEN hamartoma tumor syndrome|Neoplasm
+87864528,G,T,Likely pathogenic,Hereditary cancer-predisposing syndrome|not provided|PTEN hamartoma tumor syndrome
+87864531,T,C,Pathogenic,not provided
+87864533,G,C,Likely pathogenic,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|not provided
+87864534,A,G,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|not provided
+87864536,T,G,Likely pathogenic,not provided|PTEN hamartoma tumor syndrome|Neoplasm
+87864540,A,T,Likely pathogenic,Cowden syndrome 1|PTEN hamartoma tumor syndrome
+87864543,T,C,Conflicting classifications of pathogenicity,not provided|Hereditary cancer-predisposing syndrome
+87864546,C,A,Likely pathogenic,PTEN hamartoma tumor syndrome
+87894007,C,G,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87894010,A,G,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87894023,A,C,Likely pathogenic,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|not provided
+87894024,G,C,Likely pathogenic,not provided|PTEN hamartoma tumor syndrome
+87894025,A,C,Likely pathogenic,not provided|Hereditary cancer-predisposing syndrome|Cowden syndrome 1|PTEN hamartoma tumor syndrome
+87894026,T,A,Pathogenic,Cowden syndrome 1
+87894028,T,C,Conflicting classifications of pathogenicity,not provided|Cowden syndrome 1|PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome
+87894032,T,A,Pathogenic,PTEN hamartoma tumor syndrome
+87894036,A,G,Likely pathogenic,PTEN hamartoma tumor syndrome|not provided
+87894041,T,C,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome
+87894045,G,C,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|Cowden syndrome 1
+87894048,A,C,Likely pathogenic,Cowden syndrome 1
+87894049,T,C,Likely pathogenic,Hereditary cancer-predisposing syndrome|Cowden syndrome 1
+87894050,G,T,Likely pathogenic,PTEN hamartoma tumor syndrome
+87894051,G,C,Likely pathogenic,Macrocephaly|PTEN hamartoma tumor syndrome
+87894052,G,A,Pathogenic,Hereditary cancer-predisposing syndrome|not specified|not provided|PTEN hamartoma tumor syndrome|Cowden syndrome 1
+87894058,C,G,Pathogenic,not provided
+87894061,C,T,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided|Neoplasm
+87894063,G,T,Pathogenic,Cowden syndrome|Cowden syndrome 1
+87894066,A,T,Pathogenic,Cowden syndrome 1
+87894072,G,T,Pathogenic,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|not provided
+87894076,G,A,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided|Cowden syndrome
+87894089,C,G,Pathogenic/Likely pathogenic,Hereditary cancer-predisposing syndrome|Cowden syndrome 1|PTEN hamartoma tumor syndrome
+87894094,T,C,Pathogenic,not specified|PTEN hamartoma tumor syndrome|not provided|Glioma susceptibility 2
+87894102,G,A,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided
+87894103,T,C,Likely pathogenic,not provided
+87894105,G,A,Conflicting classifications of pathogenicity,not provided|Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87894110,G,A,Pathogenic,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|Cowden syndrome 1
+87894111,T,G,Pathogenic,PTEN hamartoma tumor syndrome
+87894113,A,G,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|not provided
+87925479,A,G,Likely pathogenic,Hereditary cancer-predisposing syndrome
+87925504,T,A,Likely pathogenic,PTEN hamartoma tumor syndrome
+87925508,T,G,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|Glioma susceptibility 2
+87925511,A,C,Pathogenic,PTEN hamartoma tumor syndrome
+87925512,G,A,Likely pathogenic,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|Cowden syndrome 1|not provided
+87925515,T,C,Likely pathogenic,Hereditary cancer-predisposing syndrome
+87925518,T,C,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87925522,T,C,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided|Hereditary cancer-predisposing syndrome
+87925524,C,G,Pathogenic,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|Cowden syndrome 1;Familial prostate cancer;Macrocephaly-autism syndrome;Familial meningioma;Glioma susceptibility 2|Cowden syndrome 1
+87925526,A,T,Pathogenic,not provided|Hereditary cancer-predisposing syndrome
+87925550,T,G,Likely pathogenic,PTEN hamartoma tumor syndrome
+87925552,C,A,Pathogenic,Breast carcinoma|PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome
+87925561,A,G,Pathogenic,not provided|Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87925567,T,C,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|PTEN-related disorder
+87927604,A,G,Likely pathogenic,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87931034,C,G,Likely pathogenic,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|Macrocephaly-autism syndrome;Familial meningioma;Glioma susceptibility 2;Cowden syndrome 1;Familial prostate cancer
+87931035,T,A,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome
+87931037,T,C,Conflicting classifications of pathogenicity,not specified|Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|Cowden syndrome 1|not provided|Breast and/or ovarian cancer
+87931039,C,T,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not specified
+87931044,A,C,Pathogenic/Likely pathogenic,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|Cowden syndrome 1|PTEN-related disorder
+87931045,G,A,Pathogenic,Cowden syndrome 1|Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|not provided
+87931048,G,A,Pathogenic,PTEN hamartoma tumor syndrome|not provided|Cowden syndrome 1|Familial meningioma;Familial prostate cancer;Cowden syndrome 1;Macrocephaly-autism syndrome;Glioma susceptibility 2
+87931049,T,G,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87931056,A,T,Pathogenic,Hereditary cancer-predisposing syndrome
+87931064,T,C,Conflicting classifications of pathogenicity,not specified|Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87931071,G,T,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|Cowden syndrome 1
+87931078,T,G,Likely pathogenic,not provided
+87931079,T,G,Pathogenic,Macrocephaly-autism syndrome
+87931085,C,A,Pathogenic,Breast neoplasm|PTEN hamartoma tumor syndrome
+87931086,A,T,Pathogenic,PTEN hamartoma tumor syndrome|Cowden syndrome 1|Hereditary cancer-predisposing syndrome
+87931090,G,C,Pathogenic,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|Cowden syndrome 1
+87931091,T,A,Pathogenic,PTEN hamartoma tumor syndrome|7 conditions|PTEN-related disorder
+87931094,G,T,Pathogenic/Likely pathogenic,PTEN hamartoma tumor syndrome|Cowden syndrome 1|not provided|Hereditary cancer-predisposing syndrome
+87931096,A,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Breast and/or ovarian cancer
+87932987,A,T,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Macrocephaly-autism syndrome
+87933265,T,C,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87942769,A,G,Likely pathogenic,Hereditary cancer-predisposing syndrome
+87952112,C,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Macrocephaly-autism syndrome
+87952116,A,G,Pathogenic,Hereditary cancer-predisposing syndrome|not provided|Cowden syndrome 1|PTEN hamartoma tumor syndrome
+87952117,G,T,Pathogenic/Likely pathogenic,Macrocephaly-autism syndrome|Hereditary cancer-predisposing syndrome|Cowden syndrome 1
+87952118,G,T,Pathogenic,Hereditary cancer-predisposing syndrome|not provided|Cowden syndrome 1|PTEN hamartoma tumor syndrome
+87952119,G,T,Pathogenic,Macrocephaly-autism syndrome|not provided
+87952121,G,A,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|Glioma susceptibility 2
+87952122,T,A,Likely pathogenic,Hereditary cancer-predisposing syndrome
+87952124,A,G,Pathogenic,Cowden syndrome 1
+87952125,C,A,Likely pathogenic,Macrocephaly-autism syndrome|PTEN hamartoma tumor syndrome
+87952133,A,C,Pathogenic,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|Cowden syndrome 1
+87952134,G,T,Pathogenic,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|PTEN-related disorder|Ovarian neoplasm
+87952135,T,G,Pathogenic,Hereditary cancer-predisposing syndrome|Cowden syndrome 1|PTEN hamartoma tumor syndrome|not provided
+87952136,C,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome
+87952137,A,G,Conflicting classifications of pathogenicity,not specified|Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|Glioma susceptibility 2;Macrocephaly-autism syndrome;Familial meningioma;Cowden syndrome 1;Malignant tumor of prostate|not provided
+87952142,C,T,Pathogenic,"not provided|Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|not specified|Macrocephaly-autism syndrome;VACTERL with hydrocephalus;Cowden syndrome 1|Cowden syndrome 1|Glioma susceptibility 2;Macrocephaly-autism syndrome;Familial meningioma;Cowden syndrome 1;Malignant tumor of prostate|Neurodevelopmental delay|Glioma susceptibility 2|Neoplasm|Malignant lymphoma, large B-cell, diffuse"
+87952143,G,C,Pathogenic/Likely pathogenic,not provided|PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome
+87952147,T,G,Pathogenic/Likely pathogenic,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome
+87952152,A,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided|Hereditary cancer-predisposing syndrome|not specified|Glioma susceptibility 2
+87952153,T,G,Likely pathogenic,not provided
+87952154,T,G,Conflicting classifications of pathogenicity,Cowden syndrome|Hereditary cancer-predisposing syndrome
+87952155,A,G,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|not provided
+87952156,T,G,Pathogenic,not provided|Hereditary cancer-predisposing syndrome
+87952158,A,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided
+87952163,T,C,Conflicting classifications of pathogenicity,not provided|Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87952165,C,G,Pathogenic,Hereditary cancer-predisposing syndrome|not provided|Cowden syndrome 1|PTEN hamartoma tumor syndrome
+87952167,T,C,Pathogenic,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|Cowden syndrome 1|Macrocephaly-autism syndrome
+87952170,T,G,Pathogenic,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|not provided
+87952187,T,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided
+87952189,T,G,Pathogenic,Hereditary cancer-predisposing syndrome
+87952190,A,T,Pathogenic,not provided|PTEN hamartoma tumor syndrome|Glioma susceptibility 2|Cowden syndrome 1
+87952203,T,C,Conflicting classifications of pathogenicity,not provided|PTEN hamartoma tumor syndrome
+87952206,T,A,Pathogenic,PTEN hamartoma tumor syndrome
+87952209,T,C,Likely pathogenic,Hereditary cancer-predisposing syndrome
+87952214,A,T,Pathogenic,not provided
+87952218,T,A,Likely pathogenic,PTEN hamartoma tumor syndrome
+87952219,G,A,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87952220,A,T,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome
+87952223,T,G,Likely pathogenic,Hereditary cancer-predisposing syndrome
+87952226,G,T,Pathogenic,not provided
+87952230,C,T,Pathogenic,PTEN hamartoma tumor syndrome
+87952232,A,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome
+87952235,C,G,Pathogenic,Hereditary cancer-predisposing syndrome|not provided|PTEN hamartoma tumor syndrome
+87952237,A,G,Conflicting classifications of pathogenicity,not provided|Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87952239,T,C,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87952250,G,A,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome
+87952258,C,T,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87952261,T,C,Pathogenic,PTEN hamartoma tumor syndrome|Cowden syndrome 1|Macrocephaly-autism syndrome;Familial meningioma;Glioma susceptibility 2;Cowden syndrome 1;Familial prostate cancer|Hereditary cancer-predisposing syndrome
+87952264,G,T,Likely pathogenic,not provided
+87957845,C,A,Conflicting classifications of pathogenicity,not specified|PTEN hamartoma tumor syndrome
+87957846,C,A,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87957858,C,T,Pathogenic,Cowden syndrome 1|Macrocephaly-autism syndrome|not provided|Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87957872,C,A,Pathogenic,Cowden syndrome 1|not provided|Familial meningioma;Macrocephaly-autism syndrome;Cowden syndrome 1;Glioma susceptibility 2;Familial prostate cancer|PTEN hamartoma tumor syndrome
+87957873,C,T,Pathogenic,Cowden syndrome 1|PTEN hamartoma tumor syndrome|Neoplasm|PTEN-related disorder
+87957877,T,C,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome
+87957879,A,T,Pathogenic,Cowden syndrome 1|not provided
+87957885,A,T,Pathogenic,PTEN hamartoma tumor syndrome|not provided|Cowden syndrome 1
+87957891,T,C,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|not provided|PTEN hamartoma tumor syndrome
+87957893,T,A,Pathogenic,Hereditary cancer-predisposing syndrome|Cowden syndrome 1
+87957901,A,G,Conflicting classifications of pathogenicity,not provided|PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome
+87957904,C,G,Pathogenic,PTEN hamartoma tumor syndrome|not provided|Hereditary cancer-predisposing syndrome
+87957906,G,T,Pathogenic,Cowden syndrome 1|PTEN hamartoma tumor syndrome
+87957915,C,T,Pathogenic/Likely pathogenic,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|not provided|Ovarian neoplasm|Cowden syndrome 1|Abnormal cardiovascular system morphology|PTEN-related disorder|Macrocephaly-autism syndrome|Gastric cancer|Cowden syndrome|Glioma susceptibility 2
+87957927,A,T,Pathogenic,Hereditary cancer-predisposing syndrome
+87957934,T,C,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided|Hereditary cancer-predisposing syndrome
+87957939,T,C,Likely pathogenic,not specified|not provided|Hereditary cancer-predisposing syndrome
+87957951,C,T,Pathogenic,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|not provided|Cowden syndrome 1|Neoplasm
+87957955,C,T,Pathogenic,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|not provided|Cowden syndrome 1|Breast and/or ovarian cancer|Gastric cancer
+87957958,T,C,Likely pathogenic,Macrocephaly-autism syndrome|PTEN hamartoma tumor syndrome
+87957961,C,G,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome
+87957964,T,G,Likely pathogenic,PTEN hamartoma tumor syndrome
+87957968,T,A,Pathogenic,Hereditary cancer-predisposing syndrome|not provided|PTEN hamartoma tumor syndrome
+87957970,G,A,Conflicting classifications of pathogenicity,Cowden syndrome 1|not provided|Bannayan-Riley-Ruvalcaba syndrome;Cowden syndrome;PTEN hamartoma tumor syndrome
+87957973,A,G,Pathogenic,Macrocephaly-autism syndrome|PTEN hamartoma tumor syndrome|not provided|Hereditary cancer-predisposing syndrome|Glioma susceptibility 2|Cowden syndrome 1
+87957992,C,T,Conflicting classifications of pathogenicity,not provided|Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87957997,A,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|not provided
+87957999,C,T,Pathogenic/Likely pathogenic,PTEN hamartoma tumor syndrome|not provided|Hereditary cancer-predisposing syndrome
+87958014,A,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided
+87958019,G,C,Pathogenic,PTEN hamartoma tumor syndrome
+87958020,G,A,Pathogenic/Likely pathogenic,PTEN hamartoma tumor syndrome|Cowden syndrome 1|not provided
+87958021,T,C,Pathogenic,PTEN hamartoma tumor syndrome
+87958027,C,G,Conflicting classifications of pathogenicity,Cowden syndrome 1|PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|not specified
+87958028,T,C,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|Breast and/or ovarian cancer|not specified
+87960892,A,G,Pathogenic,Hereditary cancer-predisposing syndrome|Cowden syndrome 1|PTEN hamartoma tumor syndrome|not provided|Cowden syndrome
+87960893,G,C,Pathogenic,PTEN hamartoma tumor syndrome|Cowden syndrome 1
+87960896,C,A,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|not specified|not provided
+87960907,A,C,Likely pathogenic,Hereditary cancer-predisposing syndrome
+87960913,G,A,Pathogenic,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|PTEN-related disorder
+87960914,G,A,Pathogenic,Hereditary cancer-predisposing syndrome|not provided|PTEN hamartoma tumor syndrome|PTEN-related disorder|Cowden syndrome 1
+87960915,G,A,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|Glioma susceptibility 2
+87960918,A,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided
+87960919,A,G,Pathogenic,Macrocephaly-autism syndrome
+87960921,A,G,Pathogenic,PTEN hamartoma tumor syndrome
+87960922,C,G,Likely pathogenic,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|Cowden syndrome 1
+87960942,G,T,Pathogenic,Hereditary cancer-predisposing syndrome
+87960945,G,T,Pathogenic,PTEN hamartoma tumor syndrome|Cowden syndrome 1
+87960952,C,G,Pathogenic/Likely pathogenic,Bannayan-Riley-Ruvalcaba syndrome;Macrocephaly-autism syndrome;Cowden syndrome 1|7 conditions|Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87960957,A,T,Pathogenic,Hereditary cancer-predisposing syndrome|Cowden syndrome 1
+87960963,G,T,Pathogenic,Cowden syndrome 1
+87960969,G,T,Pathogenic,Cowden syndrome 1|PTEN hamartoma tumor syndrome
+87960973,G,A,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|not specified|PTEN hamartoma tumor syndrome|not provided
+87960979,G,A,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|not provided|Glioma susceptibility 2
+87960980,T,A,Pathogenic/Likely pathogenic,Cowden syndrome|Hereditary cancer-predisposing syndrome|Cowden syndrome 1
+87960984,C,T,Pathogenic,Hereditary cancer-predisposing syndrome|not provided|PTEN hamartoma tumor syndrome
+87960987,G,T,Pathogenic,Hereditary cancer-predisposing syndrome|Cowden syndrome 1|PTEN hamartoma tumor syndrome
+87960993,G,A,Conflicting classifications of pathogenicity,not provided|Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87960996,A,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome
+87960997,G,A,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87961000,T,G,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|not provided
+87961004,C,A,Pathogenic,not provided
+87961005,A,G,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87961011,G,C,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|not provided
+87961014,C,T,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|not provided|not specified|PTEN hamartoma tumor syndrome|PTEN-related disorder|Macrocephaly-autism syndrome;Familial meningioma;Glioma susceptibility 2;Cowden syndrome 1;Malignant tumor of prostate
+87961015,G,A,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided|Hereditary cancer-predisposing syndrome|Ovarian cancer
+87961021,A,G,Likely pathogenic,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|not provided|Neoplasm
+87961027,A,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|not provided|not specified
+87961032,G,T,Pathogenic,Hereditary cancer-predisposing syndrome|not provided
+87961033,A,C,Conflicting classifications of pathogenicity,not provided|PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|Glioma susceptibility 2
+87961037,T,A,Pathogenic,not provided|Cowden syndrome 1|PTEN hamartoma tumor syndrome
+87961039,T,C,Likely pathogenic,not provided|Macrocephaly-autism syndrome;Cowden syndrome 1|PTEN hamartoma tumor syndrome
+87961048,C,T,Conflicting classifications of pathogenicity,not provided|PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome
+87961051,T,C,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|not provided|Cowden syndrome 1
+87961056,A,T,Likely pathogenic,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|not provided
+87961066,T,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|not provided
+87961068,G,A,Pathogenic,not provided|PTEN hamartoma tumor syndrome|Neoplasm
+87961069,A,G,Likely pathogenic,PTEN hamartoma tumor syndrome
+87961086,A,T,Pathogenic,Hereditary cancer-predisposing syndrome
+87961093,A,G,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87961095,C,T,Pathogenic,Proteus-like syndrome|not provided|Cowden syndrome 1|Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|PTEN-related disorder|Macrocephaly-autism syndrome|Cowden syndrome 1;Macrocephaly-autism syndrome|Cowden syndrome;Macrocephaly-autism syndrome|Cowden syndrome 1;Glioma susceptibility 2;Macrocephaly-autism syndrome;Malignant tumor of prostate;Familial meningioma|Cowden syndrome|Ovarian neoplasm|Familial cancer of breast|Abnormality of the nervous system|Neoplasm
+87961096,G,A,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Macrocephaly-autism syndrome|Familial meningioma|Hereditary cancer-predisposing syndrome
+87961097,A,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome
+87961100,C,A,Pathogenic,Hereditary cancer-predisposing syndrome|Cowden syndrome 1|PTEN hamartoma tumor syndrome
+87961110,A,C,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided|not specified|Hereditary cancer-predisposing syndrome
+87961113,T,G,Conflicting classifications of pathogenicity,not provided|Cowden syndrome 1
+87961116,A,T,Pathogenic,Cowden syndrome 1
+87961118,G,T,Likely pathogenic,PTEN hamartoma tumor syndrome
+87961119,G,T,Pathogenic/Likely pathogenic,not provided|PTEN hamartoma tumor syndrome|Cowden syndrome 1
+87961120,T,A,Likely pathogenic,Cowden syndrome 1
+87963435,A,G,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87965281,C,A,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87965285,A,T,Likely pathogenic,Cowden syndrome 1|not provided
+87965286,G,C,Pathogenic/Likely pathogenic,Hereditary cancer-predisposing syndrome|Cowden syndrome 1
+87965287,G,T,Conflicting classifications of pathogenicity,not provided|PTEN hamartoma tumor syndrome
+87965290,A,T,Pathogenic,Hereditary cancer-predisposing syndrome
+87965294,T,C,Pathogenic,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87965321,C,G,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome
+87965322,G,A,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|not provided|not specified
+87965326,A,G,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|not specified|not provided|Glioma susceptibility 2
+87965329,C,A,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided|Hereditary cancer-predisposing syndrome|Cowden syndrome 1
+87965334,G,C,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|not provided
+87965341,A,C,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|Glioma susceptibility 2
+87965347,A,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome
+87965352,T,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome
+87965358,A,C,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|not provided|PTEN hamartoma tumor syndrome
+87965367,T,C,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|not provided
+87965375,A,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Hereditary cancer-predisposing syndrome|not provided
+87965390,A,T,Conflicting classifications of pathogenicity,Glioma susceptibility 2|PTEN hamartoma tumor syndrome|not specified|Hereditary cancer-predisposing syndrome
+87965397,T,G,Likely pathogenic,Hereditary cancer-predisposing syndrome|not provided
+87965421,A,G,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|not provided
+87965428,G,T,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided
+87965432,C,T,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87965466,A,C,Conflicting classifications of pathogenicity,not provided|Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome
+87965471,G,C,Likely pathogenic,Hereditary cancer-predisposing syndrome
+87965472,A,C,Conflicting classifications of pathogenicity,Hereditary cancer-predisposing syndrome|PTEN hamartoma tumor syndrome|Neoplasm
+87965482,T,A,Conflicting classifications of pathogenicity,not provided|Hereditary cancer-predisposing syndrome
+87965485,C,T,Conflicting classifications of pathogenicity,not provided|Hereditary cancer-predisposing syndrome
+87965754,G,A,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided
+87966139,A,T,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|Lung adenocarcinoma|Squamous cell carcinoma
+87966442,C,A,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided
+87966500,T,C,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided
+87966971,C,T,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided
+87967055,G,A,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided
+87967909,A,G,Conflicting classifications of pathogenicity,PTEN hamartoma tumor syndrome|not provided
