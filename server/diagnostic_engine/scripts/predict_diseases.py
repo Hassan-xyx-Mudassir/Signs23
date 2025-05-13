@@ -1,43 +1,73 @@
-import argparse
 import subprocess
 import sqlite3
 import pandas as pd
-
 from pathlib import Path
+from typing import Literal
 
-def run_blast(patient_fasta, reference_fasta, blast_output_path):
+def predict_diseases(
+    gene: Literal["BRCA1", "TP53", "PTEN"],
+    patient_fasta: str,
+    output_csv_path: str
+):
+    """
+    Predict diseases for a given gene based on patient's FASTA file.
+
+    Args:
+        gene (str): Gene name (BRCA1, TP53, PTEN)
+        patient_fasta (str): Path to patient's FASTA file
+        output_csv_path (str): Path to save the matched disease predictions
+    """
+    # Static configuration
+    OFFSETS = {
+        "BRCA1": 43044294,
+        "TP53":  7661778,
+        "PTEN":  87863224,
+    }
+
+    REFS = {
+        "BRCA1": "../data/references/brca1_reference.fasta",
+        "TP53":  "../data/references/tp53_reference.fasta",
+        "PTEN":  "../data/references/pten_reference.fasta",
+    }
+
+    DB_PATH = "../data/clinvar/clinvar.db"
+
+    if gene not in OFFSETS or gene not in REFS:
+        raise ValueError("Invalid gene. Supported genes: BRCA1, TP53, PTEN")
+
+    genomic_offset = OFFSETS[gene]
+    reference_fasta = REFS[gene]
+    blast_output = Path(output_csv_path).with_suffix(".blast.tsv")
+
+    # Ensure output directory exists
+    Path(output_csv_path).parent.mkdir(parents=True, exist_ok=True)
+
     print("🔬 Running BLAST...")
     subprocess.run([
         "makeblastdb", "-in", reference_fasta, "-dbtype", "nucl", "-out", "temp_db"
     ], check=True)
+
     subprocess.run([
-    "blastn", "-query", patient_fasta, "-db", "temp_db",
-    "-outfmt", "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qseq sseq",
-    "-out", blast_output_path
+        "blastn", "-query", patient_fasta, "-db", "temp_db",
+        "-outfmt", "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qseq sseq",
+        "-out", str(blast_output)
     ], check=True)
 
-    print("✅ BLAST completed.")
-
-
-def find_mutations(blast_tsv_path, genomic_offset):
-    print("🧬 Finding mutations from BLAST output...")
+    print("✅ BLAST completed. Extracting mutations...")
     cols = [
         "qseqid", "sseqid", "pident", "length", "mismatch", "gapopen",
         "qstart", "qend", "sstart", "send", "evalue", "bitscore",
         "qseq", "sseq"
     ]
-    df = pd.read_csv(blast_tsv_path, sep='\t', names=cols)
-
+    df = pd.read_csv(blast_output, sep='\t', names=cols)
     mutations = []
 
     for _, row in df.iterrows():
-        qseq = row["qseq"]
-        sseq = row["sseq"]
-        sstart = int(row["sstart"])
-        send = int(row["send"])
+        qseq, sseq = row["qseq"], row["sseq"]
+        sstart, send = int(row["sstart"]), int(row["send"])
 
-        ref_pos = sstart if sstart < send else send  # lower bound
-        direction = 1 if send >= sstart else -1      # forward or reverse strand
+        ref_pos = min(sstart, send)
+        direction = 1 if send >= sstart else -1
 
         pos = ref_pos
         for q_base, s_base in zip(qseq, sseq):
@@ -55,60 +85,33 @@ def find_mutations(blast_tsv_path, genomic_offset):
             elif s_base == '-' and q_base != '-':
                 pass  # skip insertion
 
-    return pd.DataFrame(mutations)
+    if not mutations:
+        print("⚠️ No mutations found in patient sample.")
+        return
 
+    mutations_df = pd.DataFrame(mutations)
 
-
-def compare_with_clinvar(mutations_df, gene_name):
     print("🧾 Comparing with ClinVar database...")
-    table_name = f"{gene_name.lower()}_variants"
-    conn = sqlite3.connect("../data/clinvar/clinvar.db")
+    table_name = f"{gene.lower()}_variants"
+    conn = sqlite3.connect(DB_PATH)
     query = f"""
     SELECT Start AS position, ReferenceAllele AS ref_base, AlternateAllele AS alt_base,
            ClinicalSignificance AS clinical_significance, PhenotypeList AS disease
     FROM {table_name}
-    WHERE ClinicalSignificance LIKE '%Pathogenic%'
-      AND Type = 'single nucleotide variant'
+    WHERE ClinicalSignificance LIKE '%Pathogenic%' AND Type = 'single nucleotide variant'
     """
     clinvar_df = pd.read_sql_query(query, conn)
     conn.close()
 
-    merged = pd.merge(mutations_df, clinvar_df,
-                      on=["position", "ref_base", "alt_base"],
-                      how="inner")
-    print(f"🧠 Matched {len(merged)} pathogenic mutations.")
-    return merged
+    clinvar_df["ref_base"] = clinvar_df["ref_base"].str.upper()
+    clinvar_df["alt_base"] = clinvar_df["alt_base"].str.upper()
 
-
-def main(args):
-    Path(args.output_dir).mkdir(parents=True, exist_ok=True)
-
-    blast_output = Path(args.output_dir) / f"blast_output_{args.gene.lower()}.tsv"
-    output_file = Path(args.output_dir) / f"final_predicted_diseases_{args.gene.lower()}.csv"
-
-    run_blast(args.patient_fasta, args.reference_fasta, str(blast_output))
-
-    mutations_df = find_mutations(
-        blast_tsv_path=str(blast_output),
-        genomic_offset=args.genomic_offset
+    matched = pd.merge(
+        mutations_df,
+        clinvar_df,
+        how="inner",
+        on=["position", "ref_base", "alt_base"]
     )
 
-    if mutations_df.empty:
-        print("⚠️ No mutations found in patient sample.")
-        return
-
-    matched_diseases = compare_with_clinvar(mutations_df, args.gene)
-    matched_diseases.to_csv(output_file, index=False)
-    print(f"✅ Saved predicted diseases to {output_file}")
-
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Predict diseases based on patient FASTA sample.")
-    parser.add_argument("--gene", required=True, help="Gene name (e.g. BRCA1, TP53, PTEN)")
-    parser.add_argument("--genomic-offset", type=int, required=True, help="Genomic start offset of the gene")
-    parser.add_argument("--patient-fasta", required=True, help="Path to patient FASTA file")
-    parser.add_argument("--reference-fasta", required=True, help="Path to gene reference FASTA file")
-    parser.add_argument("--output-dir", default="../data/results", help="Output directory for results")
-    args = parser.parse_args()
-
-    main(args)
+    matched.to_csv(output_csv_path, index=False)
+    print(f"✅ Matched {len(matched)} pathogenic mutation(s). Results saved to {output_csv_path}")
